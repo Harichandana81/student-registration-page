@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <center><h1>STUDENT REGISTRATION FORM</h1></center>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <label  for="uname">FIRST NAME:</label>
+      <input type="text" id="uname"  name="firstusername" required maxlength="30"> (max 30 characters a-z and A-Z)<br>
+      <br>
+      <label  for="uname">LAST NAME:</label>
+      <input type="text" id="uname"  name="lastusername" required maxlength="30"> (max 30 characters a-z and A-Z)<br>
+      <br>
+      <label  for="uname">EMAIL ID:</label>
+      <input type="email" id="Email"  name="email" required><br>
+      <br>
+      <label  for="uname">DATE OF BIRTH:</label>
+      <input type="date" id="date"  name="date" required><br>
+      <br>
+      <label  for="uname">MOBILE NUMBER:</label>
+      <input type="number" id="number"  name="number" required maxlength="10">(10 digit number)<br>
+      <br>
+      <label>Gender :</label>
+      Male<input type="radio" name="gender" value="male" required>Female<input type="radio" name="gender" required><br>
+      <br>
+      <label for="sug">ADDRESS</ADDress></label><br>
+      <br>
+      <textarea name="sug"  rows="10" cols="50"></textarea><br>
+      <br>
+      <label  for="city">CITY:</label>
+      <input type="text" id="city"  name="city" required maxlength="30"> (max 30 characters a-z and A-Z)<br>
+      <br>
+      <label  for="uname">PIN CODE:</label>
+      <input type="digit" id="digit"  name="digit" required maxlength="6">(6 digit number)<br>
+      <br>
+      <label  for="state">STATE:</label>
+      <input type="text" id="uname"  name="state" required maxlength="30"> (max 30 characters a-z and A-Z)<br>
+      <br>
+      <label  for="state">COUNTRY:</label>
+      <input type="text" id="coun"  name="coun" placeholder="India"><br>
+      <br>
+      <label for="shopping">HOBBIES:</label>
+      <input type="checkbox" name="shop1" value="Drawing">Drawing<input type="checkbox" name="shop1" value="singing">Singing<input type="checkbox" name="shop1" value="Dancing">Dancing<input type="checkbox" name="shop1" value="sketching">sketching<br>
+      <input type="checkbox" name="shop1" value="Others">Others  <input type="text" id="text"  name="text"><br>
+      <br>
+      <table>
+        <tr>
+          <th>QUALIFICATION</th>
+          <th>Sl.No.</th>
+          <th>Examination</th>
+          <th>Board</th>
+          <th>Percentage</th>
+          <th>Year of Passing</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1</td>
+          <td>Class X</td><br>
+          <td>   <input type="text" maxlength="10"></td>
+          <td><input type="number" step="0.01" max="100"></td>
+          <td><input type="digit" id="digit" maxlength="4"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2</td>
+          <td>Class XII</td>
+          <td><input type="text" maxlength="10"></td>
+          <td><input type="number" step="0.01" max="100"></td>
+          <td><input type="digit" id="digit" maxlength="4"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>3</td>
+          <td>Graduation</td>
+          <td><input type="text" maxlength="10"></td>
+          <td><input type="number" step="0.01" max="100"></td>
+          <td><input type="digit" id="digit" maxlength="4"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>4</td>
+          <td>Masters</td>
+          <td><input type="text" maxlength="10"></td>
+          <td><input type="number" step="0.01" max="100"></td>
+          <td><input type="digit" id="digit" maxlength="4"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+          <td>(10 char max)</td>
+          <td>(upto 2 decimal)</td>
+          <td></td>
+        </tr>
+      </table>
+      <label>COURSES</label><br>
+        <label>APPLIED FOR </label>BCA<input type="radio" name="COU" required>B.Com<input type="radio" name="cou" required>B.Sc<input type="radio" name="cou" required>B.A<input type="radio" name="cou" required><br>
+        <br> 
+       <center> <input type="submit">
+      <button>Reset</button></center>
+    </fieldset>
+    </form>
+</body>
+</html>
